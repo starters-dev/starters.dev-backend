@@ -44,7 +44,7 @@ It will setup everything, including ACME (https certificates), and will run dock
 
 ---
 
-If you'd like to add another service from [starters-dev](https://github.com/starters-dev), create a dedicated `your-service.docker-compose.yml` file and add it to `run/build.sh` and run:
+If you'd like to add another service from [starters-dev](https://github.com/starters-dev), create a dedicated `docker-compose.your-service.yml` file and add it to `run/build.sh` and run:
 
 ```
 > bash run/get-repo.sh <service-repo>
