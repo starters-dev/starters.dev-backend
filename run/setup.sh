@@ -1,1 +1,1 @@
-sh scripts/acme.sh
+bash run/acme.sh

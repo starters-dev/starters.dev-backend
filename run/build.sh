@@ -4,4 +4,4 @@ FILES="-f docker-compose.yml -f docker-compose.nextjs-tailwind.yml"
 sh run/setup.sh
 
 # building containers
-docker-compose "$FILES" build && docker-compose "$FILES" up -d
+docker-compose $FILES build && docker-compose $FILES up -d
