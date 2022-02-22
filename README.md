@@ -17,9 +17,10 @@ This repo is used to configure a backend for https://starters.dev in the Cloud (
 > cd backend
 ```
 
-3. Create `.env` file and fill it up (check `.env.example`)
+3. Fill in `.env` file with your information
 
 ```bash
+> mv .env.example .env
 > nano .env
 ```
 
