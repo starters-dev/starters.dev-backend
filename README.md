@@ -34,7 +34,7 @@ It will fetch the following repo `https://github.com/starters-dev/nextjs-tailwin
 
 5. Build and run
 
-```
+```bash
 > bash run/build.sh
 ```
 
@@ -46,7 +46,7 @@ It will setup everything, including ACME (https certificates), and will run dock
 
 If you'd like to add another service from [starters-dev](https://github.com/starters-dev), create a dedicated `docker-compose.your-service.yml` file and add it to `run/build.sh` and run:
 
-```
+```bash
 > bash run/get-repo.sh <service-repo>
 ```
 
