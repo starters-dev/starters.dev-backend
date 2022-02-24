@@ -24,13 +24,19 @@ This repo is used to configure a backend for https://starters.dev in the Cloud (
 > nano .env
 ```
 
-4. Get the service repo (e.g. `nextjs-tailwind-starter`)
+`.env` content:
+
+```
+DOMAIN_NAME=your-domain.com
+DO_AUTH_TOKEN=XXXXXXXXXXXXXXXXXXXXX
+```
+
+4. Get the services
 
 ```bash
 > bash run/get-repo.sh nextjs-tailwind-starter
+> bash run/get-repo.sh starters.dev-website
 ```
-
-It will fetch the following repo `https://github.com/starters-dev/nextjs-tailwind-starter`
 
 5. Build and run
 
