@@ -34,7 +34,7 @@ DO_AUTH_TOKEN=XXXXXXXXXXXXXXXXXXXXX
 4. Get the services
 
 ```bash
-> bash run/get-repo.sh nextjs-tailwind-starter
+> bash run/get-repo.sh nextjs-tailwindcss
 > bash run/get-repo.sh starters.dev-website
 ```
 

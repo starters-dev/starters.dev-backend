@@ -1,4 +1,4 @@
-FILES="-f docker-compose.yml -f docker-compose.nextjs-tailwind.yml -f docker-compose.website.yml"
+FILES="-f docker-compose.yml -f docker-compose.nextjs-tailwindcss.yml -f docker-compose.website.yml"
 
 # first setup
 sh run/setup.sh
